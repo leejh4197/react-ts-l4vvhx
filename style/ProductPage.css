@@ -1,0 +1,211 @@
+.wrap {
+  background-color: white;
+  padding: 16px;
+  border: 1px solid #dee0e3;
+}
+.bgImg {
+  width: 100%;
+  height: 183px;
+}
+.img {
+  width: inherit;
+  height: inherit;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('https://velog.velcdn.com/images/leejh4197/post/ffe9e3fa-0571-4c0f-b31d-80c0d51a6d00/image.png');
+}
+.title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  color: black;
+}
+.priceWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #dee0e3;
+}
+.sale {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  color: #6b90dc;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+}
+
+.price p:nth-child(2) {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  color: #999999;
+  text-decoration-line: line-through;
+  margin-right: 6px;
+}
+.price p:nth-child(3) {
+  color: #333333;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 100%;
+}
+.deliveryWrap {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #dee0e3;
+  padding: 16px 0;
+}
+.line {
+  width: 14px;
+  height: 0px;
+  border: 1px solid #dee0e3;
+  transform: rotate(90deg);
+}
+.delivery {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 100%;
+  margin-bottom: 8px;
+}
+.deliveryPrice {
+  color: #333333;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+}
+.order {
+  color: #6b90dc;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+}
+.desc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #999999;
+}
+.countWrap {
+  padding: 16px 0;
+  display: flex;
+  border-bottom: 1px solid #dee0e3;
+}
+.minus {
+  width: 34px;
+  height: 34px;
+  border: 1px solid #dee0e3;
+  border-right: 0;
+  cursor: pointer;
+}
+.inp {
+  outline: none;
+  width: 42px;
+  text-align: center;
+  border-top: 1px solid #dee0e3;
+  border-bottom: 1px solid #dee0e3;
+  border-left: 0;
+  border-right: 0;
+  background-color: white;
+  font-weight: bold;
+}
+.plus {
+  width: 34px;
+  height: 34px;
+  border: 1px solid #dee0e3;
+  border-left: 0;
+  cursor: pointer;
+}
+.totalPrice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 0;
+}
+.totalPrice div:nth-child(1) {
+  display: flex;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  color: #333333;
+}
+.questionBtn {
+  position: relative;
+}
+.totalPrice button {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  color: #333333;
+  width: 16px;
+  height: 16px;
+  margin-left: 2px;
+  background-color: white;
+  border: 1px solid #dee0e3;
+}
+.totalPrice p > button > span {
+  position: absolute;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.quantityWrap {
+  display: flex;
+  align-items: center;
+}
+.quantityWrap span:nth-child(1) {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #999999;
+}
+.quantityWrap span:nth-child(3) {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 100%;
+  color: #6b90dc;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  width: 100%;
+  height: 48px;
+  background: #03c75a;
+  border-radius: 6px;
+  border: 0;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+.btn span {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  color: #ffffff;
+}
+.btn img {
+  height: 28px;
+  width: 28px;
+  margin-right: 8px;
+}
+.btn:hover {
+  background: #0aae4f;
+}
+
+.btn:disabled {
+  background: #dee0e3;
+  pointer-events: none;
+}
+.btn:disabled span {
+  color: #999999;
+}
